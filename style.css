@@ -1,3 +1,25 @@
-h1{
-    color: green;
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #016B6F;
+   
 }
+button{
+    color: white;
+    background-color:#016B6F;
+    border: 1px solid #016B6F;
+    border-radius: 8px;
+    padding: 10px 10px;
+}
+#navbar{
+    margin-left: 100px;
+    padding-top: 22px;
+    padding-bottom:22px;
+    display: flex;
+}
+
+/* 121.26px
+Height 
+23px */
+
+
