@@ -15,26 +15,64 @@
     <!-- css style -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a364c6e355.js" crossorigin="anonymous"></script>
+
     <title>Landing Page</title>
 </head>
 
 <body>
     <header>
         <div id="navbar">
-            <img width="50px" height="47px"src="images/logo-dark 1.png" alt="">
-            <p> Categories</p>
-            <button id="search"><img src="images/Group 4.png" alt=""></button>
-            <button>Sign Up</button>
-            <button>Log In</button>
-            <img width="44px" height="42px" src="images/Navbar Icon_Cart.png" alt="">
+            <div class="navLeft">
+                <img class="navLogo" width="50px" height="47px" src="images/logo-dark 1.png" alt="">
+                <p class="navLogo"> Categories</p>
+                <i class="fa-light fa-angle-down"></i>
+                <img class="navLogo" width="46px" height="46px" src="images/Group 4.png" alt="">
+            </div>
+            <div class="navRight">
+                <button class="navLogin navButton">Sign Up</button>
+                <button class="navLogin navButton">Log In</button>
+                <img class="navLogin" width="44px" height="42px" src="images/Navbar Icon_Cart.png" alt="">
+            </div>
+        </div>
+
+        <div id="bannerImage">
+            <h1 id="bannerTitle">Banner Title <br> Goes Here</h1>
+            <p id="bannerDescription">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.
+                Lorem Ipsum <br> has been the industry's standard dummy text <br> ever since the 1500s.</p>
+            <button id="bannerButton">Get Started</button>
+        </div>
+    </header>
+    
+
+    <!-- footer -->
+    <footer id="footerPart">
+        <div>
+            <h3>COMPANY</h3>
+            <hr class="footerHr">
+            <p>About</p>
+            <p>Blogs</p>
         </div>
         <div>
-
+            <h3>SUPPORT</h3>
+            <hr class="footerHr">
+            <p>Help & FAQ</p>
+            <p>Sign Up As A Provider</p>
         </div>
-
-    </header>
-
-
+        <div>
+            <h3>LEGAL TERMS</h3>
+            <hr class="footerHr">
+            <p>Terms & Conditions</p>
+            <p>Privacy Policy</p>
+        </div>
+        <div>
+            <h3>CONTACT US</h3>
+            <hr class="footerHr">
+            <p>contact@explme.com</p>
+            <p>+65 9639 7145</p>
+        </div>
+    </footer>
 
     <script src="custom.js"></script>
 </body>
