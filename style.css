@@ -245,8 +245,6 @@ header{
     background-color: #717171;
   }
   
-  
-  /* Add a blue color to the author */
   .author {
     font-size: 28px;
     line-height: 33px;
@@ -292,5 +290,12 @@ color: #DDFDFB;
     margin-left: 0px;
 }
 
-
+@media screen and (max-width: 414px) {
+    #footerPart{display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px 20px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;}
+  }
 
