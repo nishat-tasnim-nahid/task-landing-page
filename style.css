@@ -86,6 +86,106 @@ header{
 }
 
 
+/* card slider */
+.card-container{
+    background: rgba(1, 107, 111, 0.04);
+}
+.card{
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+    display: flex;
+    justify-content: center;
+    column-gap: 46px;
+    margin-top: 64px;
+    margin-bottom: 67px;
+}
+.card-content{
+    height: 371px;
+    width: 242px;
+    background: #ffffff;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    
+}
+.card-heading{
+   padding-left: 500px;
+   padding-top: 125px;
+}
+#card-title{
+    font-weight: 400;
+    font-size: 38px;
+    color:#016B6F;
+}
+#card-title-hr{
+    height: 5px;
+    width: 292px;
+    margin-left: 0px;
+    background: linear-gradient(90deg, #0E4E4E 0%, rgba(14, 78, 78, 0) 66.1%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    border: 1px solid rgba(1, 107, 111, 0.04);
+    border-radius: 20px;
+}
+.card-top-button{
+   padding: 20px 30px;
+   border: 1px solid #016B6F;
+   border-radius: 8px;
+   color: #016B6F;
+   background-color: #FFFFFF;
+   margin-right: 53px;
+   margin-top: 48px;
+   font-weight: bold;
+   box-shadow: 0px 0px 4px 4px rgba(171, 208, 209, 0.35);
+}
+.card-top-button:hover{
+    cursor: pointer;
+    background-color: #016B6F;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 15px 4px rgba(1, 107, 111, 0.35);
+    
+}
+
+.card-description{
+    padding-left: 23px;
+    padding-bottom: 23px;
+    color: #016B6F;
+    font-size: 16px;
+    line-height: 19px;
+}
+.card-button{
+    border: 1px solid #016B6F;
+    color:#016B6F;
+    font-size: 12px;
+    line-height: 14px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding:5px 10px;
+    margin: 15px 10px 15px 0px;
+}
+.card-button:hover{
+    cursor: pointer;
+}
+#explore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 62px;
+    
+}
+#explore-button{
+    font-weight: bold;
+    border: 3px solid #016B6F;
+    color:#016B6F;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 12px 15px;
+}
+#explore-button:hover{
+    cursor: pointer;
+    background-color: #016B6F;
+    color: #FFFFFF;
+}
+
+
 /* footer */
 #footerPart{
     background-color: #016B6F;
